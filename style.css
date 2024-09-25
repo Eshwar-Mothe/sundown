@@ -1,0 +1,83 @@
+html,body{
+    /* margin: 0; */
+    text-decoration: none;
+    background-color: rgb(240, 240, 240);
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+header ul li{
+    border: 2px solid gray;
+    border-radius: 2rem;
+    color: gray;
+    padding: 10px;
+    text-align: center;
+    width: 4rem;
+    /* margin-bottom: 7rem; */
+
+    &:hover{
+        background-color: #000;
+        color: #fff;
+    }
+}
+
+/* Banner Section */
+
+.bannerSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 4vw 2vw;
+    padding-bottom: 2.5vw;
+    height: 60vh;
+    border: 1px solid gray;
+    border-style: none none solid none;
+}
+
+.left-content{
+    width: 20%;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    &::first-letter{
+        font-weight: 900;
+    }
+}
+
+.right-content {
+    height: 65vh;
+    /* letter-spacing: -1.5vw; */
+    font-size: 5vw;
+    line-height: .8;
+    text-align: right;
+    font-weight: 900;
+}
+
+.video-section{
+    margin-top: 2vw;
+
+}
+.video-section img{
+    position: relative;
+    filter: drop-shadow(-2rem -2rem 2em crimson);
+    left: 70%;
+    top: -7rem;
+    height: 55vh;
+    width: 25vw;
+}
+
+.video-section video{
+    position: relative;
+    top: -15rem;
+}
